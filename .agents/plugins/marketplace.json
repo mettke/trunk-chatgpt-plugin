@@ -1,0 +1,20 @@
+{
+  "name": "trunk",
+  "interface": {
+    "displayName": "Trunk"
+  },
+  "plugins": [
+    {
+      "name": "trunk",
+      "source": {
+        "source": "local",
+        "path": "./plugins/trunk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

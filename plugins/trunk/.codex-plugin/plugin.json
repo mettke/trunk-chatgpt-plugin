@@ -1,0 +1,29 @@
+{
+  "name": "trunk",
+  "version": "0.1.1",
+  "description": "Use Trunk from ChatGPT through the existing authenticated Trunk app.",
+  "author": {
+    "name": "Trunk",
+    "url": "https://trunk.dev"
+  },
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Trunk",
+    "shortDescription": "Inspect Trunk repositories and propose changes",
+    "longDescription": "Use the existing Trunk app to inspect repository source and Change state and, when appropriate, propose changes through Trunk's normal policy, review, check, and landing lifecycle.",
+    "developerName": "Trunk",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Inspect the current state of this Trunk repository.",
+      "Read the relevant Trunk source before proposing a change.",
+      "Prepare a Trunk change proposal without bypassing policy or review."
+    ],
+    "websiteURL": "https://trunk.dev"
+  },
+  "homepage": "https://trunk.dev"
+}
